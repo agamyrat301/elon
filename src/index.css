@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/background.jpg');
+  /*background-size: ; /* Makes sure the image covers the whole background */
+  background-size: cover;
+  background-repeat: no-repeat; /* Prevents image repetition */
+  background-position: center center; /* Centers the image */
 }
 
 code {
